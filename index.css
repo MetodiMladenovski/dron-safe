@@ -1,9 +1,28 @@
 h1 {
     text-align: center;
-    margin-top: 10vh;
-    color: white;
+    margin-top: 0vh;
+    color: black;
 }
 
 body {
-    background-color: darkgreen;
+    background-color: white;
+}
+
+.navLogo {
+    width: 20vh;
+    height: 10vh;
+}
+
+.togglerButton {
+    width: 6vh;
+    height: 6vh;
+    padding: 0;
+}
+
+.toggleSvg {
+    width: 4vh;
+    height: 4vh;
+    margin: 0;
+    padding: 0;
+
 }
