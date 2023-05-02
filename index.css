@@ -1,11 +1,17 @@
 h1 {
     text-align: center;
-    margin-top: 0vh;
-    color: black;
+    font-size: 4vw;
+}
+
+p {
+    font-size: 3vmin;
 }
 
 body {
-    background-color: white;
+    background: #132a13;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .navLogo {
@@ -13,10 +19,31 @@ body {
     height: 10vh;
 }
 
+.bodyLogo {
+    width: 30vw;
+    height: 15vw;
+    align-self: center;
+    margin: 0;
+}
+
 .togglerButton {
     width: 6vh;
     height: 6vh;
-    padding: 0;
+    padding: 0;    
+}
+
+.togglerButton:hover {
+    transition: 500ms;
+    background-color: #99d98c;
+    border: 1px solid;
+}
+
+footer {
+    background-color: #132a13;
+}
+
+footer a {
+    color: wheat;
 }
 
 .toggleSvg {
@@ -25,4 +52,132 @@ body {
     margin: 0;
     padding: 0;
 
+}
+
+nav {
+    border-radius: 0 0 2vh 2vh;
+    background-color: #f0ead2;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color:#14213d;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #588157;
+}
+
+.col img {
+    width: 70vmin;
+    height: 40vmin;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    border-radius: 2%;
+    margin-bottom: 3%;
+}
+
+.col {
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vw;
+    padding: 10px 5vw;
+    color: wheat;
+    border: 0;
+    margin: 0;
+}
+
+.afterFirstSection {
+    padding-top: 100px;
+    min-height: 40vw;
+}
+
+.dark {
+    background-color: #132a13;
+}
+
+.bright{
+    background-color: #52b788;
+}
+
+.dark2 {
+    background-color: #5c4d3c;
+}
+
+.bright2 {
+    background-color: #a7cdbd;
+}
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+    transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+    fill: #132a13;
+}
+
+.wave2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+}
+
+.wave2 .shape-fill {
+    fill: #52b788;
+}
+
+.wave3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(183% + 1.3px);
+    height: 129px;
+}
+
+.wave3 .shape-fill {
+    fill: #5c4d3c;
+}
+
+footer section {
+    
 }
