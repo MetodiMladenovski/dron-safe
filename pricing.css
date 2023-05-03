@@ -1,0 +1,33 @@
+.card {
+    color: black;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color:rgb(213, 255, 213);
+}
+
+.registered-users {
+    margin-top: 10vw;
+}
+
+.p-after-header {
+    text-align: center;
+}
+
+.btn .btn-primary {
+    background-color: green;
+    color: #132a13;
+    width: 20000px;
+}
+
+.after-pricing {
+    color: wheat;
+    margin-top: 10vw;
+}
+
+.per {
+    color: gray;
+}
+
+.wave2 .shape-fill {
+    fill: #132a13;
+}
