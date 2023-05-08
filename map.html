@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>DronSafe</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="map.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img class="navLogo" src="Images/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          </a>
+          <button type="button" class="navbar-toggler togglerButton"  data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container-flex">
+                <img class="toggleSvg" src="Images/box-arrow-down.svg">
+            </div>
+          </button>
+            <div id="navbar-menu" class="collapse navbar-collapse justify-content-end">
+               <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="drones.html">Drones</a>
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                    <a class="joinus" type="link" href="registration.html">Join us</a>
+               </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container text-center" style="margin-top: 2vw">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card text-center" style="background-color: #132a13; border: 0;">
+                <div class="information">
+                    <h3>Your selected route for climbing</h3>
+                    <br>
+                    <p>
+                        Climbing from Летниковец ПТТ Водно to Врв Водно.
+                        <br>
+                        Here you can find the picture of your drone,
+                        and under you have your current location, 
+                        and your drones current location displayed on the map.
+                    </p>
+                    <p>
+                        Enjoy your adventure!
+                    </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card text-center" style="background-color: #132a13; width: 100%; border: 0;" >
+                <img src="./Images/vodno.JPG" width="100%" style="border-radius: 2%;">
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+        <div class="mapouter" style="margin-top: 3vw">
+            <div class="gmap_canvas">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d8357.080895165842!2d21.384236934466312!3d41.97046707069096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x135417d5a942a025%3A0x5b672cfa5f67f0d1!2z0JvQtdGC0L3QuNC60L7QstC10YYg0J_QotCiINCS0L7QtNC90L4!3m2!1d41.9752449!2d21.391074399999997!4m5!1s0x135416ba341ec4b7%3A0x96c5400034dcae17!2z0JLRgNCyINCS0L7QtNC90L4!3m2!1d41.964999999999996!2d21.394444399999998!5e1!3m2!1smk!2smk!4v1683574392722!5m2!1smk!2smk" 
+                class="gmap_iframe" width="100%"
+                frameborder="0"
+                marginheight="0" marginwidth="0" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+            <style>
+            .mapouter{position:relative;text-align:right;width:90%;height:621px;margin: auto;}
+            .gmap_canvas {overflow:hidden;background:none!important;width:100%;height:621px; border-radius: 2%;}
+            .gmap_iframe {height:621px!important;}
+            </style>
+        </div>
+
+        <br>
+        <br>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

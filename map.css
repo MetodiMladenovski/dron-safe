@@ -1,0 +1,16 @@
+
+.grid-container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+.information {
+    color: wheat;
+    margin: auto;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    text-align: center;
+    
+}
