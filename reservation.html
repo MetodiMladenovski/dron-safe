@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./reservation.css">
     <link rel="stylesheet" href="./pricing.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,40 +40,45 @@
 
     <section class="dark">
       <br>
-      <h1>Drones that are currently offered by us</h1>
+      <h1>Reserve your drone and route!</h1>
       <br>
       <div class="container text-center">
-        <div class="row">
-          <div class="col">
-            <div class="card text-center" >
-                <img style="width: 100%; height: 450px;" src="./Images/drone1.jpg" class="card-img-top" alt="...">
-                <div class="card-header">
-                  <p>DJI Mini 3 Pro (DJI RC)</p>
-                </div>
-                <div class="card-body">
-                  <p class="card-text">This is recommended for the beginner. </p>
-                  <a href="#" class="btn btn-primary">More information</a>
-                </div>
-              </div>
-            </div>
-          <div class="col" >
-            <div class="card text-center">
-                <img style="width: 100%; height: 450px; "src="./Images/drone2.webp" class="card-img-top" alt="...">
-                <div class="card-header">
-                  <p>DJI FPV Combo</p>
-                </div>
-                <div class="card-body">
-                  <p class="card-text">This drone is recommended for the pro.</p>
-                  <a href="#" class="btn btn-primary">More information</a>
-                </div>
-              </div>
-          </div>
+        <p style="font-size: large;">Choose your drone, route and mark your calendars!</p>
+      </div>
+      <br>
+      <div class="container reservation text-center">
+        <div>
+            <label for="drone">Select your preffered drone</label>
+            <br>
+            <select name="drone">
+                <option class="oD">DJI Mini 3 Pro (DJI RC)</option>    
+                <option class="oD">DJI FPV Combo</option>    
+            </select>
+            <br>
+            <br>
+            <label for="startDate">Select your start date</label>
+            <br>
+            <input name="startDate" type="date" />
+            <br>
+            <br>
+            <label for="endDate">Select your end date</label>
+            <br>
+            <input name="endDate" type="date" />
+            <br>
+            <br>
+            <label for="route">Select your route</label>
+            <br>
+            <select name="route">
+                <option>ПТТ Водно -> Врв Водно</option>    
+                <option>Средно Водно -> Врв Водно</option>    
+            </select>
+            <br>
         </div>
-      </div>
-      <div class="container text-center after-pricing">
-        <p>This is for the one timers, if you are a regular hiker/climber,
-             you can register and have a drone at your disposal anytime you want</p>
-      </div>
+        <br>
+        <a href="./map.html" class="btn btn-primary">Make Reservation</a>  
+    </div>
+    <br>
+    <br>
     </section>
 
     <footer class="text-center">
